@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+    list-style: none;
+}
+h1{
+    font-size: 40px;
+    width: 370px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    width: 100%;
+    margin-top:15px;
+    background-color: hsl(234, 29%, 20%);
+}
+
+.conteiner{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    gap: 30px;
+    width: 870px;
+    height: 600px;
+    margin: 20px;
+    padding: 18px;
+    border-radius: 5% 5% 5%;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.conteudo-texto{
+    display: flex;
+    flex-direction: column;
+    width: 370px;
+    height: 600px;
+    padding:8px;
+    align-items: center;
+    justify-content:center;
+    gap: 25px;
+}
+
+.email-adress{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 8px;
+    width: 386px;
+}
+
+.check{
+    height: 15px;
+    margin-right: 9px;
+}
+
+ul li{
+    margin: 6px;
+    width: 357px;
+}
+
+.submit{
+    height: 40px;
+    padding: 13px;
+    width: 386px;
+    border-radius: 12px 12px 12px;
+    color: hsl(0, 0%, 100%);
+    background-color: rgb(36, 39, 66);
+}
+
+.submit:hover{
+    cursor: pointer;
+    background-color: rgb(58, 62, 101);
+}
+
+.input-email{
+    height: 18px;
+    width: 350px;
+    border-radius: 12px 12px;
+    padding: 15px;
+}
