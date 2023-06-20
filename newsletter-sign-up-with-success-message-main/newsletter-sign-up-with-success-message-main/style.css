@@ -3,10 +3,12 @@
     padding: 0;
     box-shadow: none;
     list-style: none;
+    font: inherit;
 }
 h1{
-    font-size: 40px;
+    font-size: 56px;
     width: 370px;
+    font-weight: 700;
 }
 body{
     display: flex;
@@ -20,6 +22,7 @@ body{
 }
 
 .conteiner{
+    background-image: url('design/');
     display: flex;
     flex-direction: row;
     justify-content:space-around;
@@ -49,6 +52,9 @@ body{
     gap: 8px;
     margin-top: 8px;
     width: 386px;
+    font-weight: bold;
+    font-size: 12px;
+
 }
 
 .check{
